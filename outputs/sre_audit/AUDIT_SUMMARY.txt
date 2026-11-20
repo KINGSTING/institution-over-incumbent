@@ -1,0 +1,49 @@
+BLGF SRE PREPARED PANEL AUDIT
+Project root: C:\Users\HP\Desktop\JJ\institutions-over-incumbents
+Input panel: C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\sre_prepared\lgu_fiscal_panel_2009_2024.csv
+Rows: 27,398; columns: 65
+Years present: [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+Duplicate fiscal_year + lgu_key rows: 0
+Missing fiscal_year values: 0
+Distinct provisional LGU keys across all years: 1,774
+
+IMPORTANT LIMITATIONS
+- No unit conversion, inflation adjustment, imputation, or record deletion was performed.
+- Financial unit cannot be proven from the panel alone; compare source title, magnitudes, and arithmetic.
+- Key differences are candidate identity/coverage changes, not proof of legal creation or dissolution.
+- Name-only candidate matches may pair distinct LGUs; manually review all candidates.
+- Reconciliation tests are arithmetic diagnostics, not proof of accounting equivalence.
+
+YEAR COUNTS:
+  2009: 1715 rows
+  2010: 1715 rows
+  2011: 1715 rows
+  2012: 1715 rows
+  2013: 1678 rows
+  2014: 1715 rows
+  2015: 1715 rows
+  2016: 1715 rows
+  2017: 1715 rows
+  2018: 1715 rows
+  2019: 1715 rows
+  2020: 1708 rows
+  2021: 1715 rows
+  2022: 1715 rows
+  2023: 1716 rows
+  2024: 1716 rows
+
+OUTPUT FILES:
+  01_year_counts.csv
+  02_duplicate_lgu_year_keys.csv
+  03_missingness_by_column.csv
+  04_numeric_magnitude_summary.csv
+  05_numeric_by_year.csv
+  06_variable_presence_and_position.csv
+  07_variable_year_to_year_changes.csv
+  08_lgu_annual_presence.csv
+  09_lgu_year_to_year_changes.csv
+  10_2023_vs_all_years_lgu_differences.csv
+  11_current_operations_reconciliation.csv
+  12_reconciliation_summary.csv
+  13_count_discrepancy_review.csv
+  14_original_workbook_dimensions.csv

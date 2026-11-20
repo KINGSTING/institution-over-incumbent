@@ -1,0 +1,34 @@
+PSGC HIERARCHY AUDIT
+Input: data\PSA\PSGC-2Q-2026-Publication-Datafile.xlsx
+Rows included (Reg/Prov/City/Mun/SubMun/Bgy): 43,766
+
+LEVEL COUNTS:
+ level  records
+   Bgy    42010
+   Mun     1493
+  City      149
+  Prov       82
+   Reg       18
+SubMun       14
+
+CODE VALIDATION:
+                                               check  count
+                      blank_or_invalid_10_digit_PSGC      0
+                        duplicate_10_digit_PSGC_rows      0
+        blank_or_invalid_9_digit_correspondence_code     49
+         duplicate_nonblank_correspondence_code_rows      0
+                  records_with_invalid_region_prefix      0
+            province_rows_with_invalid_region_prefix      0
+   city_municipality_rows_with_province_prefix_found   1599
+city_municipality_rows_without_province_prefix_found     43
+   barangay_rows_with_city_municipality_parent_found  42010
+barangay_rows_without_city_municipality_parent_found      0
+
+Review queue rows: 43
+Output directory: outputs\psgc_hierarchy_audit
+
+Interpretation rules:
+- Candidate parent codes are validated against actual records of the relevant level.
+- Missing province-prefix matches are flagged, not automatically treated as errors or assigned.
+- Correspondence Code is preserved independently and never derived from the 10-digit PSGC.
+- This is a current 2Q 2026 reference hierarchy; it does not itself establish historical LGU boundaries.

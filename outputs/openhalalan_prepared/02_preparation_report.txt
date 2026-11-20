@@ -1,0 +1,59 @@
+OPENHALALAN MAYORAL PROXY PANEL PREPARATION
+============================================================
+
+Source file: C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\OpenHalalan\NLE_Winners_2004-2025.csv
+Source rows: 157,333
+Source columns: 14
+APC dataset used: NO
+
+Selected election years:
+2016, 2019, 2022, 2025
+
+Detected source columns:
+  last_name: Last Name
+  first_name: First Name
+  middle_name: Middle Name
+  full_name: Full Name
+  position: Position
+  party: Party
+  year: Year
+  province: Province
+  city: City
+  region: Region
+  sex: Sex
+
+Mayoral panel:
+  Selected-period mayor records: 6,538
+  Distinct provisional LGU keys: 1,765
+  Missing LGU names: 0
+  Missing candidate names: 1
+  Ambiguous LGU-election records: 0
+  Exact duplicate flagged records: 0
+
+Mayoral records by year:
+  2016: 1,633
+  2019: 1,634
+  2022: 1,634
+  2025: 1,637
+
+Transition audit:
+  Transition rows: 4,772
+  Same normalized name: 1,720
+  Same surname proxy: 3,405
+  Different surname: 1,367
+
+Transition rows by cycle:
+  2016-2019: 1,632
+  2019-2022: 1,552
+  2022-2025: 1,588
+
+Proxy panel:
+  Panel rows: 6,538
+  Rows with an observed preceding-cycle transition: 4,772
+
+Interpretation cautions:
+  1. Same surname is not proof of familial relationship.
+  2. Same normalized name is a name-based identity proxy, not independently verified identity.
+  3. Province + city/municipality keys are provisional and require PSGC reconciliation.
+  4. Ambiguous LGU-election groups are excluded from transition calculations.
+  5. Missing or unobserved cycles are not bridged.

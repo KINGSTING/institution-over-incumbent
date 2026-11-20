@@ -1,0 +1,40 @@
+BLGF SRE LGU PANEL — EXTRACTION AND VALIDATION REPORT
+Requested years: 2009–2024
+Source directory: C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE
+Output directory: C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\sre_prepared
+
+No unit conversion, inflation adjustment, interpolation, or imputation was applied.
+Blank source values remain blank. Historical LGU names/boundaries are not reconciled.
+lgu_key is a provisional name/type/province matching key, not an official LGU identifier.
+
+Workbooks found: 16
+Successful workbooks: 16
+Workbooks with errors: 0
+Total LGU-year records: 27,398
+Distinct provisional LGU keys: 1,774
+Duplicate provisional keys within years: 0
+
+YEAR-BY-YEAR EXTRACTION:
+2009: OK; rows=1715; file=By-LGU-SRE-2009.xlsx; unit=In Php Million (source wording; raw values preserved); notes=
+2010: OK; rows=1715; file=By-LGU-SRE-2010.xlsx; unit=In Php Million (source wording; raw values preserved); notes=
+2011: OK; rows=1715; file=By-LGU-SRE-2011.xlsx; unit=In Php Million (source wording; raw values preserved); notes=
+2012: OK; rows=1715; file=By-LGU-SRE-2012.xlsx; unit=In Php Million (source wording; raw values preserved); notes=
+2013: OK; rows=1678; file=SRE-By-LGU-2013.xlsx; unit=In Php Million (source wording; raw values preserved); notes=
+2014: OK; rows=1715; file=By-LGU-SRE-2014.xlsx; unit=In Php Million (source wording; raw values preserved); notes=
+2015: OK; rows=1715; file=BY-LGU-SRE-2015.xlsx; unit=In Php Million (source wording; raw values preserved); notes=
+2016: OK; rows=1715; file=By-LGU-SRE-2016.xlsx; unit=In Php Million (source wording; raw values preserved); notes=
+2017: OK; rows=1715; file=By-LGU-SRE-2017.xlsx; unit=In Php Million (source wording; raw values preserved); notes=
+2018: OK; rows=1715; file=By-LGU-SRE-2018.xlsx; unit=In Php Million (source wording; raw values preserved); notes=
+2019: OK; rows=1715; file=By-LGU-SRE-2019.xlsx; unit=In Php Million (source wording; raw values preserved); notes=
+2020: OK; rows=1708; file=By-LGU-SRE-2020.xlsx; unit=In Php Million (source wording; raw values preserved); notes=
+2021: OK; rows=1715; file=By-LGU-SRE-2021.xlsx; unit=In Php Million (source wording; raw values preserved); notes=
+2022: OK; rows=1715; file=By-LGU-SRE-2022.xlsx; unit=In Php Million (source wording; raw values preserved); notes=
+2023: OK; rows=1716; file=By-LGU-SRE-2023.xlsx; unit=In Php Million (source wording; raw values preserved); notes=
+2024: OK; rows=1716; file=By-LGU-SRE-2024.xlsx; unit=In Php Million (source wording; raw values preserved); notes=
+
+REQUIRED REVIEW BEFORE ANALYSIS:
+1. Verify numeric units; the source title and magnitudes may conflict.
+2. Review column_dictionary.csv for changing headers/account classifications.
+3. Inspect duplicate keys and changes in LGU names/boundaries.
+4. Do not interpret missing values as zero.
+5. Confirm the extracted row counts against each source workbook.

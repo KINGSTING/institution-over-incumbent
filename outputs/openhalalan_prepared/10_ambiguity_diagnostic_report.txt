@@ -1,0 +1,20 @@
+AMBIGUOUS MAYORAL RECORD DIAGNOSTIC
+=============================================
+Input mayor records in selected years: 8,111
+Resolved records used for grouping: 7,987
+Ambiguous LGU-election groups: 95
+Records in ambiguous groups: 198
+
+Ambiguous groups by election year:
+  2013: 95
+
+Review files created:
+  C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\openhalalan_prepared\08_ambiguous_lgu_election_groups.csv
+  C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\openhalalan_prepared\09_ambiguous_mayoral_records.csv
+
+IMPORTANT:
+- Multiple records do not automatically mean a data error.
+- Do not select a mayor arbitrarily.
+- Inspect names, province/municipality fields, office labels,
+  and available source identifiers before resolving any group.
+- The transition file is read-only in this diagnostic.

@@ -1,0 +1,204 @@
+﻿C:\Users\HP\Desktop\JJ\institutions-over-incumbents\.gitattributes
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\.gitignore
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\project_file_list.txt
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\README.md
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\requirements.txt
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA-reports.docx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\project_file_list.txt
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\BARMM\Balindong-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\BARMM\Barira-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\BARMM\Bayang-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\BARMM\Buldon-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\CAR\Atok-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\CAR\Balbalan-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\CAR\Banaue-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\CAR\Bangued-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\CAR\Barlig-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\CAR\Besao-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\CAR\Bucay-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\CAR\Calanasan-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\CAR\Conner-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\CAR\Kabayan-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\CAR\Lagawe-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\CAR\Pasil-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 1\Adams-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 1\Agno-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 1\Agoo-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 1\Aguilar-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 1\Aringay-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 1\Carasi-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 10\Aloran-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 10\Bacolod-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 10\Baliangao-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 10\Baungon-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 10\Don-Carlos-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 10\Kolambugan-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 11\Asuncion-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 11\Compostela-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 11\Nabunturan-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 11\Tagum-City-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 12\Alabel-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 12\Alamada-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 12\Banga-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 12\Carmen-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 12\Kiamba-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 12\Polomolok-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 13\Alegria-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 13\Buenavista-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 13\Burgos-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 13\Carmen-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 2\Abulug-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 2\Alicia-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 2\Allacapan-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 2\Ambaguio-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 2\Aritao-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 2\Aurora-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 2\Basco-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 2\Ivana-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 3\Abucay-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 3\Aliaga-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 3\Anao-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 3\Angat-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 3\Apalit-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 3\Balagtas-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 3\Bamban-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 3\Botolan-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 3\Cabanatuan-City-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 3\Cabangan-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 3\Floridablanca-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 3\Hermosa-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 4-A\Agdangan-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 4-A\Agoncillo-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 4-A\Alaminos-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 4-A\Alfonso-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 4-A\Amadeo-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 4-A\Atimonan-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 4-A\Balayan-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 4-A\Cavinti-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 4-B\Abra-de-Ilog-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 4-B\Boac-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 4-B\Gasan-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 4-B\Paluan-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 5\Aroroy-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 5\Bacacay-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 5\Bagamanoc-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 5\Baleno-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 5\Baras-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 5\Barcelona-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 5\Basud-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 5\Capalonga-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 5\Irosin-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 5\Malilipot-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 6\Ajuy-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 6\Anilao-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 6\Balete-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 6\Batan-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 6\Buenavista-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 6\Cuartero-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 6\Nueva-Valencia-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 6\Panitan-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 7\Alburquerque-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 7\Alcantara-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 7\Alcoy-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 7\Alicia-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 8\Abuyog-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 8\Alangalang-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 8\Allen-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 8\Almagro-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 8\Almeria-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 8\Arteche-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 8\Balangkayan-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 8\Cabucgayan-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 8\Catarman-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 8\Daram-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 9\Alicia-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 9\Buug-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 9\Katipunan-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\COA 2023 Reports\Region 9\LaLibertad-Executive-Summary-2023.pdf
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\OpenHalalan\NLE_Winners_2004-2025.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\OpenHalalan\political_dynasty_v8.5.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\PSA\2024 National MPI_tables.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\PSA\2025_T1_1.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\PSA\2025_T1_10.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\PSA\2025_T1_2.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\PSA\2025_T1_25.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\PSA\2025_T1_26.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\PSA\2025_T1_3.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\PSA\2025_T1_31.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\PSA\2025_T1_32.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\PSA\2025_T1_4.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\PSA\2025_T1_5.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\PSA\2025_T1_7.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\PSA\2025_T1_9.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\PSA\2_2023 SAE_with PSGC_noHUC_06Feb2026.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\PSA\PSGC-2Q-2026-National-and-Provincial-Summary (1).xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\PSA\PSGC-2Q-2026-National-and-Provincial-Summary.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\PSA\PSGC-2Q-2026-Publication-Datafile.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-1992.xls
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-1993.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-1994.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-1995.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-1996.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\BY-LGU-SRE-1997.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-1998.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-1999.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-2000.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-2001.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-2002.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-2003.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-2004.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-2005.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-2006.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\BY-LGU-SRE-2007.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-2008.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-2009.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-2010.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-2011.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-2012.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-2014.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\BY-LGU-SRE-2015.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-2016.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-2017.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-2018.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-2019.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-2020.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-2021.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-2022.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-2023.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\By-LGU-SRE-2024.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\data\SRE\SRE-By-LGU-2013.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\openhalalan_prepared\01_source_column_profile.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\openhalalan_prepared\02_preparation_report.txt
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\openhalalan_prepared\03_mayoral_winners_standardized.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\openhalalan_prepared\04_mayoral_transitions_surname_proxy.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\openhalalan_prepared\05_municipality_year_winner_counts.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\openhalalan_prepared\06_name_and_key_review.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\openhalalan_prepared\07_exact_duplicate_records.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\openhalalan_prepared\08_ambiguous_lgu_election_groups.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\openhalalan_prepared\08_mayoral_proxy_panel.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\openhalalan_prepared\09_ambiguous_mayoral_records.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\openhalalan_prepared\10_ambiguity_diagnostic_report.txt
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\source_inventory\sre_inventory_2009_2024.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\sre_audit\01_year_counts.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\sre_audit\02_duplicate_lgu_year_keys.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\sre_audit\03_missingness_by_column.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\sre_audit\04_numeric_magnitude_summary.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\sre_audit\05_numeric_by_year.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\sre_audit\06_variable_presence_and_position.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\sre_audit\07_variable_year_to_year_changes.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\sre_audit\08_lgu_annual_presence.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\sre_audit\09_lgu_year_to_year_changes.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\sre_audit\10_2023_vs_all_years_lgu_differences.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\sre_audit\11_current_operations_reconciliation.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\sre_audit\12_reconciliation_summary.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\sre_audit\13_count_discrepancy_review.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\sre_audit\14_original_workbook_dimensions.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\sre_audit\AUDIT_SUMMARY.txt
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\sre_prepared\column_dictionary.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\sre_prepared\extraction_log.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\sre_prepared\lgu_fiscal_panel_2009_2024.csv
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\sre_prepared\lgu_fiscal_panel_2009_2024.xlsx
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\outputs\sre_prepared\validation_report.txt
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\scripts\01_prepare_sre_data.py
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\scripts\02_audit_sre_data.py
+C:\Users\HP\Desktop\JJ\institutions-over-incumbents\scripts\03_prepare_openhalalan_data.py
