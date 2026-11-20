@@ -1,142 +1,175 @@
-# Poverty Is Falling Everywhere: Convergence, Not Dynasty, in Philippine Local Government
+# Institutions Over Incumbents? Political Succession and Fiscal Accountability in Philippine Municipal Governments
 
 ## 📖 Project Overview
-This repository contains the data pipeline, econometric scripts, and visualization code for the research paper: **"Poverty Is Falling Everywhere: Convergence, Not Dynasty, in Philippine Local Government."**
+This repository contains the data pipeline, econometric scripts, audit-coding protocols, and visualization code for the research project: **"Institutions Over Incumbents? Political Succession and Fiscal Accountability in Philippine Municipal Governments."**
 
-The research re-evaluates the widely held hypothesis that political dynasties in the Philippines slow down poverty reduction. Using a municipal-level panel of 1,714 Local Government Units (LGUs) across three waves (2018, 2021, 2023), the study finds that the observed positive association between dynasties and poverty is largely a statistical artifact of **mean reversion** (convergence) and **clustering methodology**, rather than a dynasty-specific drag on development.
+Local governments operate within formal fiscal, administrative, and auditing rules, yet elected mayors change over time. This study investigates the extent to which Philippine municipal governments maintain continuity in **fiscal management** and **financial accountability** across changes in political leadership and potential surname-based succession.
 
-## 🔑 Key Findings
-*   **The Convergence Artifact:** Raw data shows dynastic LGUs declining in poverty *faster* than non-dynastic LGUs. However, this is because they started 3–4 percentage points poorer in 2018. Once initial poverty is controlled, the dynasty effect collapses to zero.
-*   **Clustering Fragility:** The continuous measure of dynasty exposure (share of dynastic officials) loses statistical significance when standard errors are properly clustered at the provincial level, rather than the LGU level.
-*   **Bounded Null for "Fat" Dynasties:** The theoretically central distinction between "fat" dynasties (Mayor and Vice Mayor are same-clan) and "thin" dynasties is statistically indistinguishable from zero (`+1.17 pp`, 95% CI `[-1.26, 3.60]`).
-*   **No Selection Bias:** LGUs that would go on to become dynastic ("Entry") were not statistically poorer in 2018 than LGUs that remained non-dynastic ("Never").
+To balance national breadth with documentary depth, the design combines two complementary empirical components:
+1. **Component A (Broad Fiscal Panel):** A longitudinal municipal panel linking Bureau of Local Government Finance (BLGF) Statements of Receipts and Expenditures (SRE, FY1992–2024) with OpenHalalan election-winner records (2004–2025).
+2. **Component B (Stratified Longitudinal Audit Subsample):** A purposively bounded, stratified subsample of ~24 municipalities (6 per transition cell, drawn from an initial pool of 57 matched LGU pairs / 114 observations) tracking Commission on Audit (COA) Annual Audit Reports (AARs) across pre-transition ($t-1$) and post-transition ($t+1, t+2$) fiscal years.
 
 ---
 
-## 📊 Visualizing the Results
+## 🧩 Conceptual & Analytical Framework
 
-### 1. Clustering Sensitivity
-The continuous share measure crosses the zero line under province clustering, while the binary measure remains robust.
-![Clustering Sensitivity](output/paper2/figures/fig1_clustering_sensitivity.png)
+### Four-Cell Political-Transition Matrix
+Rather than treating surname similarity as verified kinship or proven political dynasty membership, the pipeline classifies leadership transitions into four transparent operational categories:
 
-### 2. Poverty Trajectories by Dynasty Entry Group
-All groups experience poverty decline. The dynastic groups start significantly poorer but exhibit steeper declines.
-![Poverty Trajectories](output/paper2/figures/fig2_trajectories.png)
+| Transition Category | Outgoing Mayor ($t-1$) | Incoming Mayor ($t$) | Operational Interpretation |
+| :--- | :--- | :--- | :--- |
+| **Cell 1: Potential Continuity** | Potentially dynastic | Potentially dynastic | Succession remains within a potentially dynastic pattern |
+| **Cell 2: Potential Interruption** | Potentially dynastic | Non-dynastic | Shift away from potential dynastic incumbency |
+| **Cell 3: Potential Entry** | Non-dynastic | Potentially dynastic | Transition into potential dynastic incumbency |
+| **Cell 4: Non-Dynastic Continuity** | Non-dynastic | Non-dynastic | Leadership turnover without potential dynastic status |
 
-### 3. Convergence in Poverty Reduction (2018–2023)
-Initial poverty strongly predicts subsequent decline. Dynastic and non-dynastic LGUs follow nearly identical convergence paths.
-![Convergence Scatter](output/paper2/figures/figA_convergence_scatter.png)
+### Core Hypotheses Tested
+- **H1 (Fiscal Continuity):** Municipal fiscal management outcomes exhibit baseline persistence across fiscal years and leadership transitions.
+- **H2 & H3 (Transition-Associated Change & Heterogeneity):** Fiscal shifts during the first complete post-transition fiscal years differ across the four transition categories, net of LGU fixed effects, year shocks, and baseline convergence controls.
+- **H4 (Accountability Continuity):** Documented COA audit opinions, Notices of Disallowance (NDs), Notices of Suspension (NSs), and unliquidated cash advances exhibit varying degrees of persistence between $t-1$ and $t+1/t+2$.
+- **H5 (Cross-Source Consistency):** Fiscal patterns observed in the broad BLGF SRE panel are systematically cross-checked against documentary audit findings in the matched COA subsample.
 
-### 4. Fat vs. Thin Dynasties: A Bounded Null
-The difference between same-clan and other-dynastic LGUs has a confidence interval that tightly straddles zero.
-![Fat vs Thin](output/paper2/figures/fig4_fat_vs_thin.png)
+---
 
-### 5. Pre-Transition Null: Entry vs. Never
-Pre-transition poverty levels between entrants and non-dynastic LGUs are statistically identical, mitigating selection concerns.
-![Entry vs Never](output/paper2/figures/figB_entry_vs_never.png)
+## 📊 Preliminary Merge & Sampling Diagnostics
 
-### 6. Heterogeneity in the Dynasty-Poverty Association
-The association is concentrated in 2018 and disappears by 2023. It is driven primarily by Mindanao.
-![Heterogeneity](output/paper2/figures/fig3_heterogeneity.png)
+- **Broad SRE–OpenHalalan Proxy Merge (FY2018, FY2021, FY2023):** Retained **5,140** municipal-year observations with **4,550** exact matches (**87.10%**, **87.16%**, and **91.31%** coverage rates, respectively) prior to historical expansion (1992–2024) and boundary-change reconciliation.
+- **COA Longitudinal Sampling Pool:** **114** baseline observations across **57** matched LGU pairs, stratified by transition cell, island group, and pre-transition revenue class to construct the **24-LGU** complete-case longitudinal panel ($t-1, t+1, t+2$).
 
 ---
 
 ## 📂 Repository Structure
 ```text
-dynasty-poverty/
+institutions-over-incumbents/
 │
 ├── data/
+│   ├── raw/
+│   │   ├── blgf_sre/                       # BLGF Statements of Receipts & Expenditures (1992–2024)
+│   │   ├── openhalalan/                    # Municipal election-winner records (2004–2025)
+│   │   └── coa_aars/                       # Downloaded COA Annual Audit Reports (PDFs)
 │   └── processed/
-│       ├── panel_dynasty_funds.parquet     # Master municipal panel dataset
-│       ├── openhalalan_candidates.parquet  # Candidate dynastic classifications
-│       ├── psgc_lgu_master.parquet         # LGU geographic reference
-│       └── psgc_provinces_master.parquet   # Province geographic reference
+│       ├── sre_election_panel.parquet      # Master municipal fiscal-election panel (psgc10)
+│       ├── transition_matrix_4cell.parquet # Validated predecessor-successor classifications
+│       ├── coa_sampling_pool_57pairs.csv   # Initial 57-pair eligibility & stratification frame
+│       └── coa_coded_subsample.parquet     # Standardized COA audit indicators (t-1, t+1, t+2)
+│
+├── docs/
+│   └── coa_extraction_codebook.md          # Standardized protocol for coding COA AARs & inter-coder rules
 │
 ├── src/
-│   ├── audit_reviewers.py                  # Core econometric engine (TWFE models, clustering, diagnostics)
-│   ├── generate_figure_data.py             # Exports plotting data (CSV) from the audit models
-│   └── plot_figures.py                     # Renders publication-ready PNGs from the CSV data
+│   ├── 01_build_transition_matrix.py       # Election-to-FY mapping & 4-cell transition classification
+│   ├── 02_merge_sre_panel.py               # PSGC10 harmonization, boundary checks & SRE panel merge
+│   ├── 03_stratify_coa_sample.py           # 5-stage stratified sampling from the 57-pair COA pool
+│   ├── 04_estimate_panel_models.py         # TWFE regressions, event-time studies & province clustering
+│   └── 05_plot_figures.py                  # Generates publication-ready figures (300 DPI)
 │
 ├── output/
-│   └── paper2/
-│       ├── audit_reviewers.txt             # Full regression output and diagnostics log
-│       ├── audit_reviewers.csv             # Tidy format of all regression coefficients
-│       └── figures/                        # Final figures for the manuscript (PNG) & raw data (CSV)
+│   ├── diagnostics/
+│   │   ├── merge_coverage_report.txt       # Unmatched LGU diagnostics & cell distribution counts
+│   │   └── coa_attrition_log.csv           # Stage 1–5 COA sampling & report availability audit
+│   ├── tables/
+│   │   └── twfe_event_study_results.csv    # Regression estimates & robustness checks
+│   └── figures/                            # Final manuscript figures (PNG)
 │
 ├── README.md
 └── requirements.txt
+
 ```
+
+---
 
 ## 🛠️ Methodology & Pipeline
 
-The analysis uses **Two-Way Fixed Effects (TWFE) OLS regression** with standard errors clustered at the provincial level. The pipeline is split into three distinct phases to ensure reproducibility and allow for tweaking of figures without rerunning the expensive regressions.
+The analytical workflow separates data validation, stratified audit sampling, and econometric estimation to ensure full reproducibility and transparent tracking of missing or ambiguous cases.
 
-### 1. Data & Audit (`src/audit_reviewers.py`)
-This is the core econometric script. It performs the following:
-*   Constructs the `psgc10` keys (Region + Province + Municipality).
-*   Builds the "Fat vs. Thin" dynasty classification.
-*   Runs TWFE models with standard errors clustered at both the **LGU** and **Province** levels.
-*   Runs the long-difference convergence models.
-*   Outputs `audit_reviewers.txt` and `.csv` to `output/paper2/`.
+### 1. Political-Transition Classification (`src/01_build_transition_matrix.py`)
 
-### 2. Figure Data Generation (`src/generate_figure_data.py`)
-This script pulls from the audit models and the main panel to generate exactly the data needed for the plots.
-*   Calculates binned scatter data for the convergence plots.
-*   Extracts coefficients and confidence intervals into a clean, plotting-friendly CSV format.
-*   Outputs `.csv` files to `output/paper2/figures/`.
+* Maps OpenHalalan election cycles (2004–2025) to complete post-transition fiscal years, isolating mixed transition years from full incumbent fiscal years.
+* Validates independent predecessor and successor indicators before assigning municipalities to Cells 1–4, flagging ambiguous surname matches for sensitivity analysis.
 
-### 3. Visualizations (`src/plot_figures.py`)
-This script uses `matplotlib` and `seaborn` to render the final 300 DPI publication-ready images.
-*   Plots the Clustering Sensitivity, Trajectories, Heterogeneity, and Bounded Nulls.
-*   Outputs `.png` files to `output/paper2/figures/`.
+### 2. Broad SRE Panel Construction (`src/02_merge_sre_panel.py`)
+
+* Harmonizes municipal identifiers using 10-digit Philippine Standard Geographic Codes (`psgc10`), accounting for municipal creations, mergers, and cityhood conversions.
+* Computes core fiscal continuity indicators: local source revenue share, National Tax Allotment (NTA) dependency, expenditure composition, and fiscal balance ratios.
+
+### 3. Five-Stage COA Stratification (`src/03_stratify_coa_sample.py`)
+
+* Audits the existing **57-pair (114-observation)** COA dataset for transition-cell eligibility.
+* Stratifies eligible LGUs across the four transition cells, balancing by geographic island group, pre-transition revenue class, and baseline fiscal capacity to select ~6 LGUs per cell (**~24 LGUs total**) with complete $t-1, t+1, t+2$ report coverage.
+
+### 4. Econometric & Cross-Source Analysis (`src/04_estimate_panel_models.py`)
+
+* Estimates Two-Way Fixed Effects (TWFE) and event-time specifications with standard errors clustered at the **provincial level** (with two-way clustering robustness checks).
+* Tests conditional convergence / baseline fiscal capacity controls and compares quantitative SRE trajectories against coded COA audit indicators (audit opinions, disallowances, suspensions, and unliquidated cash advances).
 
 ---
 
 ## 🚀 How to Reproduce
 
 ### Prerequisites
-Ensure you have Python 3.9+ installed. Install the required dependencies:
+
+Ensure Python 3.9+ is installed, then install the required packages:
+
 ```bash
-pip install pandas numpy statsmodels scipy matplotlib seaborn pyarrow
+pip install pandas numpy statsmodels linearmodels scipy matplotlib seaborn pyarrow
+
 ```
 
 ### Execution
-Run the scripts in the following order from the project root:
 
-**Step 1: Run the main econometrics audit**
-```bash
-python -u src/audit_reviewers.py
-```
-*Check `output/paper2/audit_reviewers.txt` to verify the regression results.*
+Run the pipeline sequentially from the repository root:
 
-**Step 2: Generate the figure datasets**
-```bash
-python -u src/generate_figure_data.py
-```
-*Check `output/paper2/figures/` for the generated CSV files.*
+**Step 1: Construct and validate the 4-cell transition matrix**
 
-**Step 3: Render the final figures**
 ```bash
-python -u src/plot_figures.py
+python -u src/01_build_transition_matrix.py
+
 ```
-*The final `.png` figures for the manuscript will now be in `output/paper2/figures/`.*
+
+**Step 2: Merge BLGF SRE panel and run coverage diagnostics**
+
+```bash
+python -u src/02_merge_sre_panel.py
+
+```
+
+*Inspect `output/diagnostics/merge_coverage_report.txt` for cell counts and unmatched LGU diagnostics.*
+
+**Step 3: Generate the stratified COA sampling frame**
+
+```bash
+python -u src/03_stratify_coa_sample.py
+
+```
+
+**Step 4: Estimate TWFE panel models, event studies, and robustness checks**
+
+```bash
+python -u src/04_estimate_panel_models.py
+
+```
+
+**Step 5: Render manuscript figures**
+
+```bash
+python -u src/05_plot_figures.py
+
+```
 
 ---
 
-## 📝 Citation
-If you use this code or data, please cite the forthcoming manuscript:
-> [Author Names]. (2026). Poverty Is Falling Everywhere: Convergence, Not Dynasty, in Philippine Local Government. *Poverty and Public Policy*.
+## ⚠️ Ethical & Interpretive Notes
 
-## ⚠️ Notes on Data Availability
-The `.parquet` files in `data/processed/` are derived from public records (COMELEC, PSA, BLGF). Ensure you have the appropriate data use agreements if sharing these `.parquet` files publicly.
+* **Operational Scope:** Surname-based matching identifies *potential* political succession patterns; it is not treated as conclusive proof of biological kinship, political capture, or illicit conduct.
+* **Audit Interpretation:** COA audit opinions, Notices of Disallowance, and Notices of Suspension reflect documented compliance and accounting observations within specific audit cycles rather than direct measures of individual intent.
+* **Data Governance:** Underlying fiscal, electoral, and audit records are derived from public releases by the BLGF, COMELEC/OpenHalalan, and COA.
+
 ```
 
-### One quick tip for GitHub:
-Once you push this to GitHub, make sure that the `output/paper2/figures/` folder and the `.png` files inside it are **actually committed to the repository**. If your `.gitignore` is set to ignore images or the `output` folder, the images won't show up on the GitHub README! 
+<ElicitationsGroup message="How would you like to tailor this README further?">
+  <Elicitation label="Adapt this README specifically for the poverty-convergence repository instead" query="Revise the original 'Poverty Is Falling Everywhere: Convergence, Not Dynasty, in Philippine Local Government' README to include author details, an expanded econometric specification section, and a publication-ready abstract."/>
+  <Elicitation label="Generate the matching COA extraction codebook (docs/coa_extraction_codebook.md)" query="Create the standardized markdown codebook referenced in docs/coa_extraction_codebook.md for coding COA audit opinions, Notices of Disallowance, Notices of Suspension, and inter-coder reliability rules."/>
+  <Elicitation label="Write the transition-matrix validation script (01_build_transition_matrix.py)" query="Write the Python script src/01_build_transition_matrix.py to classify Philippine mayors into the 4-cell transition matrix, map election years to complete fiscal years, and output the cell distribution report."/>
+</ElicitationsGroup>
 
-To force-add them if they are being ignored, you can run:
-```powershell
-git add -f output/paper2/figures/*.png
-git commit -m "Add figures for README display"
-git push
 ```
