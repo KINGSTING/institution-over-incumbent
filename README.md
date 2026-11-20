@@ -163,13 +163,3 @@ python -u src/05_plot_figures.py
 * **Operational Scope:** Surname-based matching identifies *potential* political succession patterns; it is not treated as conclusive proof of biological kinship, political capture, or illicit conduct.
 * **Audit Interpretation:** COA audit opinions, Notices of Disallowance, and Notices of Suspension reflect documented compliance and accounting observations within specific audit cycles rather than direct measures of individual intent.
 * **Data Governance:** Underlying fiscal, electoral, and audit records are derived from public releases by the BLGF, COMELEC/OpenHalalan, and COA.
-
-```
-
-<ElicitationsGroup message="How would you like to tailor this README further?">
-  <Elicitation label="Adapt this README specifically for the poverty-convergence repository instead" query="Revise the original 'Poverty Is Falling Everywhere: Convergence, Not Dynasty, in Philippine Local Government' README to include author details, an expanded econometric specification section, and a publication-ready abstract."/>
-  <Elicitation label="Generate the matching COA extraction codebook (docs/coa_extraction_codebook.md)" query="Create the standardized markdown codebook referenced in docs/coa_extraction_codebook.md for coding COA audit opinions, Notices of Disallowance, Notices of Suspension, and inter-coder reliability rules."/>
-  <Elicitation label="Write the transition-matrix validation script (01_build_transition_matrix.py)" query="Write the Python script src/01_build_transition_matrix.py to classify Philippine mayors into the 4-cell transition matrix, map election years to complete fiscal years, and output the cell distribution report."/>
-</ElicitationsGroup>
-
-```
